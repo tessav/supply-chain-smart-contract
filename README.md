@@ -17,19 +17,13 @@ The DApp User Interface when running should look like...
 This ETH Dapp helps farmers, distributors, retailers and consumers to track and verify each step in the coffee bean supply chain.
 
 ### Contract address (Goerli Testnet)
-- SupplyChain: 0x64f48324C5f9a81ca202D65892eBBA660F92bD84 
+- SupplyChain: 0x64f48324C5f9a81ca202D65892eBBA660F92bD84
 https://goerli.etherscan.io/address/0x64f48324C5f9a81ca202D65892eBBA660F92bD84
 
 
 ## UML Diagrams
 
-![activity](images/activity_diagram.png)
-
-![sequence](images/sequence_diagram.png)
-
-![state](images/state_diagram.png)
-
-![data](images/data_diagram.png)
+![uml](images/uml.png)
 
 
 ## Getting Started
@@ -48,7 +42,7 @@ Web3.js v1.7.4
 
 ### Installing
 
-> The starter code is written for **Solidity v0.4.24**. At the time of writing, the current Truffle v5 comes with Solidity v0.5 that requires function *mutability* and *visibility* to be specified (please refer to Solidity [documentation](https://docs.soliditylang.org/en/v0.5.0/050-breaking-changes.html) for more details). To use this starter code, please run `npm i -g truffle@4.1.14` to install Truffle v4 with Solidity v0.4.24. 
+> The starter code is written for **Solidity v0.4.24**. At the time of writing, the current Truffle v5 comes with Solidity v0.5 that requires function *mutability* and *visibility* to be specified (please refer to Solidity [documentation](https://docs.soliditylang.org/en/v0.5.0/050-breaking-changes.html) for more details). To use this starter code, please run `npm i -g truffle@4.1.14` to install Truffle v4 with Solidity v0.4.24.
 
 A step by step series of examples that tell you have to get a development env running
 
