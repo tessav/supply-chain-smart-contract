@@ -13,6 +13,25 @@ The DApp User Interface when running should look like...
 ![truffle test](images/ftc_transaction_history.png)
 
 
+## Project Overview
+This ETH Dapp helps farmers, distributors, retailers and consumers to track and verify each step in the coffee bean supply chain.
+
+### Contract address (Goerli Testnet)
+- SupplyChain: 0x64f48324C5f9a81ca202D65892eBBA660F92bD84 
+https://goerli.etherscan.io/address/0x64f48324C5f9a81ca202D65892eBBA660F92bD84
+
+
+## UML Diagrams
+
+![activity](images/activity_diagram.png)
+
+![sequence](images/sequence_diagram.png)
+
+![state](images/state_diagram.png)
+
+![data](images/data_diagram.png)
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -22,7 +41,9 @@ These instructions will get you a copy of the project up and running on your loc
 Please make sure you've already installed ganache-cli, Truffle and enabled MetaMask extension in your browser.
 
 ```
-Give examples (to be clarified)
+Truffle v5.6.0
+Node v15.14.0
+Web3.js v1.7.4
 ```
 
 ### Installing
@@ -34,7 +55,7 @@ A step by step series of examples that tell you have to get a development env ru
 Clone this repository:
 
 ```
-git clone https://github.com/udacity/nd1309/tree/master/course-5/project-6
+git clone https://github.com/tessav/supply-chain-smart-contract.git
 ```
 
 Change directory to ```project-6``` folder and install all requisite npm packages (as listed in ```package.json```):
